@@ -14,3 +14,4 @@ The readme files in respective folder have the following information
 Till present I have participated in the following projects
 
 1) [Predicting Flight Price](https://github.com/vasim07/MachineHack/tree/master/FlightPrice)
+2) Predict Financial Strength of Country
