@@ -34,7 +34,8 @@ A process map is a planning and management tool that visually describes the flow
 <p align="center">
   <img width="560" height="300" src="https://i.ibb.co/zsqrJN8/test.gif">
 </p>
-<center>source: Self (Recruitment process)</center>
+
+<p align="center"> source: Self (Recruitment process)</p>
 
 A good process map allows us to explain clearly and evaluate the proposed changes and understand the benefits, challenges, and requirements of the proposed structure.
 
