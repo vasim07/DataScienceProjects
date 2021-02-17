@@ -1,9 +1,12 @@
+<!-- 
 <style>
 img[src*='#center'] { 
     display: block;
     margin: auto;
 }
 </style>
+
+-->
 
 ## Machine Learning Projects
 
@@ -61,7 +64,7 @@ Based on my experience, for a transactional process, the [Kimball dimensional mo
 <p align="center">
   <img width="560" height="300" src="https://media.geeksforgeeks.org/wp-content/uploads/20200717001130/Kimball.png">
 </p>
-<center>Source:- www.geeksforgeeks.org</center>
+<p align="center"> source: www.geeksforgeeks.org</p>
 
 **Exploratory Data Analysis**
 
@@ -88,7 +91,7 @@ Principal Component Analysis (PCA): We can use the PCA technique to extract line
   <img width="600" height="250" src="https://i.ibb.co/wwr2hqh/Capture.png">
 </p>
 
-<center>Source:- setosa.io</center>
+<p align="center"> source: setosa.io</p>
 
 
 Standardization & Normalization: Some algorithms such as gradient descent and support vector machines boost their speed with standardization and normalization.
@@ -110,7 +113,7 @@ The other approach used for validating a model involves **cross-validation**. In
 </p>
 
 
-source: [Wikipedia](https://en.wikipedia.org/wiki/Cross-validation_(statistics))
+<p align="center"> source: https://en.wikipedia.org/wiki/Cross-validation_(statistics)</p>
 
 ## Model Training
 
@@ -150,9 +153,10 @@ Individual Conditional Expectation: Individual Conditional Expectation (ICE) plo
 SHapley Additive exPlanation (SHAP): The goal of SHAP is to explain the prediction of an instance x by computing the contribution of each feature to the prediction. The SHAP explanation method computes Shapley values from coalitional game theory.
 
 ![](https://raw.githubusercontent.com/slundberg/shap/master/docs/artwork/boston_dependence_plot.png =500x300)
+
 source:- [Shap](https://github.com/slundberg/shap)
 
-Learning Curves
+Learning Curves: We can use Learning curves to understand and evaluate the bias variance trade off of the model.
 
 **Model Evaluation**
 
