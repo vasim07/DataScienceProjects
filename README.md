@@ -113,7 +113,7 @@ The other approach used for validating a model involves **cross-validation**. In
 </p>
 
 
-<p align="center"> source: https://en.wikipedia.org/wiki/Cross-validation_(statistics)</p>
+<p align="center"> source: https://en.wikipedia.org</p>
 
 ## Model Training
 
@@ -152,9 +152,11 @@ Individual Conditional Expectation: Individual Conditional Expectation (ICE) plo
 
 SHapley Additive exPlanation (SHAP): The goal of SHAP is to explain the prediction of an instance x by computing the contribution of each feature to the prediction. The SHAP explanation method computes Shapley values from coalitional game theory.
 
-![](https://raw.githubusercontent.com/slundberg/shap/master/docs/artwork/boston_dependence_plot.png =500x300)
+<p align="center">
+  <img width="500" height="300" src="https://raw.githubusercontent.com/slundberg/shap/master/docs/artwork/boston_dependence_plot.png">
+</p>
 
-source:- [Shap](https://github.com/slundberg/shap)
+<p align="center"> source: Python SHAP package</p>
 
 Learning Curves: We can use Learning curves to understand and evaluate the bias variance trade off of the model.
 
