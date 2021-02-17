@@ -10,7 +10,7 @@ img[src*='#center'] {
 
 ## Machine Learning Projects
 
-The respository contains machine learning competitions/hackathons that I have participated in during the extra time. While such competition's objective is to minimize error or maximize accuracy, these competitions allow us with the flexibility to work on various real-world problems and form multi-dimension thinking in solving data science problems. 
+The respository contains machine learning competitions/hackathons that I have participated in during my extra time. While such competition's objective is to minimize error or maximize accuracy, these competitions allow us with the flexibility to work on various real-world problems and form multi-dimension thinking in solving data science problems. 
 
  Here's one competition I won, organized by [Analytics India Magazine](https://analyticsindiamag.com/machinehack-winners-how-these-data-science-enthusiasts-solved-the-predicting-the-costs-of-used-cars-hackathon/) for predicting the price of used cars. The winning code is [here](https://github.com/vasim07/MachineHack/blob/master/UsedCars/FinalSubmission.ipynb).
  
