@@ -115,39 +115,43 @@ Image source: [Model Complexity, Accuracy and Interpretability - Medium](https:/
 
 **2.6) Hyperparameter tuning**
 
-There are a few methods such as grid search, random search, and bayesian search to identify the optimal hyperparameters of a model.
+Methods such as Grid search, Randomized search, and Bayesian hyperparameter tuning are used to identify optimal hyperparameters of a model.
 
-A practical approach to identify hyperparameter is to use the cross-validation technique. There are various cross-validation techniques such as k-fold cv, Leave one out cv, k-fold stratified cross-validation, etc., which can be selected based on the objective.
+A formal approach to identify optimal hyperparameter is to use the cross-validation technique. There are various type of cross-validation techniques such as k-fold cv, Leave one out cv, k-fold stratified cross-validation, etc. 
 
 <p align="center">
-  <img width="200" height="100" src="https://upload.wikimedia.org/wikipedia/commons/c/c7/LOOCV.gif">
+  <img width="350" height="100" src="https://upload.wikimedia.org/wikipedia/commons/c/c7/LOOCV.gif">
 </p>
 
 
 <p align="center"> source: https://en.wikipedia.org</p>
 
+In the above animation, the dataset is split into eight section. In each round, seven section are used for training and the holdout section is used for testing the models.
+
 — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — —  — — — — — —
 
-**2.7) Version Control (ML Flow)**
+**2.7) MLOps using ML Flow**
 
-A predictive model design is an iterative process, which involves trying different features, various models and tuning the best hyperparameters. Because of an iterative approach, we need an appropriate version control mechanism to capture version history. 
+A predictive model is an iterative process, involving different features, various models and tuning the best hyperparameters. Due to it's iterative nature, outputs of the model needs to be stored and compared for performance. 
 
-I prefer using the [ML Flow](https://mlflow.org/) platform from databricks to effectively store and manage model, parameters, evaluation, and artifacts of the model. The simple UI makes it extremely easy to compare performance across different models.
+[ML Flow](https://mlflow.org/) platform from databricks stores models, parameters, metrics, and artifacts. A simple UI makes it easy to compare different models.
 
 ![Image result for mlflow](https://databricks.com/wp-content/uploads/2018/06/mlflow-web-ui.png)
 source:- [Databricks](https://databricks.com/blog/2018/06/05/introducing-mlflow-an-open-source-machine-learning-platform.html)
 
 — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — —  — — — — — —
 
-**2.8) Debugging or eXplainable AI**
+**2.8) eXplainable AI**
 
-Significant variables / Feature Importance: Significant variables and feature importance plot provide us the important variables used in the model. With domain expertise, we can match these variables to ensure the stability of the model.
+XAI is a subset of data science/machine learning that helps humans understand the solution provided by the algorithams.
 
-Partial Dependence Plot: The partial dependence plot (short PDP or PD plot) shows the marginal effect one or two features have on the predicted outcome of a machine learning model
+**Significant variables / Feature Importance**: Significant variables and feature importance plot provide us the important variables used in the model. With domain expertise, we can match these variables to ensure the stability of the model.
 
-Individual Conditional Expectation: Individual Conditional Expectation (ICE) plots display one line per instance that shows how the instance's prediction changes when a feature changes.
+**Partial Dependence Plot**: The partial dependence plot (short PDP or PD plot) shows the marginal effect one or two features have on the predicted outcome of a machine learning model
 
-SHapley Additive exPlanation (SHAP): The goal of SHAP is to explain the prediction of an instance x by computing the contribution of each feature to the prediction. The SHAP explanation method computes Shapley values from coalitional game theory.
+**Individual Conditional Expectation**: Individual Conditional Expectation (ICE) plots display one line per instance that shows how the instance's prediction changes when a feature changes.
+
+**SHapley Additive exPlanation (SHAP)**: The goal of SHAP is to explain the prediction of an instance x by computing the contribution of each feature to the prediction. The SHAP explanation method computes Shapley values from coalitional game theory.
 
 <p align="center">
   <img width="500" height="300" src="https://raw.githubusercontent.com/slundberg/shap/master/docs/artwork/boston_dependence_plot.png">
@@ -155,7 +159,7 @@ SHapley Additive exPlanation (SHAP): The goal of SHAP is to explain the predicti
 
 <p align="center"> source: Python SHAP package</p>
 
-Learning Curves: We can use Learning curves to understand and evaluate the bias variance trade off of the model.
+Libraries such as `AI Fairness 360` and `FAIRLEARN` can be used to evaluate the fairness and biasness of the model.
 
 — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — —  — — — — — —
 
