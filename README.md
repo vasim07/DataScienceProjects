@@ -10,7 +10,7 @@ img[src*='#center'] {
 
 ## Data Science Projects
 
-The respository contains codes of data sciece course work and competitions/hackathons.
+The respository contains codes of data science course work and competitions.
 
 The following contents lay down the principles that we use for solving a Data Science problem.
 
@@ -42,7 +42,7 @@ E.g., The loan default ratio of our bank is high and needs to be reduced by x% w
 The problem statement is accompanied by other supporting documents such as 
 ***
 
-##2) Data Science Methodology
+## 2) Data Science Methodology
 
 **2.1) Data Collection**
 
@@ -50,7 +50,12 @@ A well defined problem
 
 **2.2) Exploratory Data Analysis**
 
-An EDA is an essential and integral part of a data science process. It helps us to detect bias, incorrect, incomplete, or outlier records. Additionally, it allows us to test our data distribution assumptions, relationship, and patterns. 
+Exploratory Data Analysis is an approach to summarize and identify important characterstics of the data using visualization and statistical plots. It helps us identify patterns, detect bias, analyze missing values and/or detect outliers.
+
+<p align="center">
+  <img width="300" height="250" src="https://i.ibb.co/BqZP28Z/image.png">
+</p>
+source: Capstone project at IIM Ahmedabad.
 
 **2.3) PreProcessing**
 
@@ -97,7 +102,7 @@ The other approach used for validating a model involves **cross-validation**. In
 
 <p align="center"> source: https://en.wikipedia.org</p>
 
-##2.5) Model Training
+**2.5) Model Training**
 
 Based on the target variable, we can either train a classification or regression model. Model training is an integral part of the entire process, and we can see that it does have various complexity involved. 
 
@@ -148,7 +153,7 @@ Only once we have finalized a model. We evaluate its performance on the test dat
 
 Even though the modeling building process ends here, however, this does not meet our end objective.
 
-##3) Deployment & Monitorig
+## 3) Deployment & Monitorig
 
 **Batch Prediction**
 Next, we go into more details about the prediction of models once deployed.
