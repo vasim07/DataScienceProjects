@@ -20,17 +20,20 @@ The respository contains jupyter notebook codes of data science/machine learning
 The content lays down a general approach that is used for solving Data Science problem.
 
 
-## Achievement
+## Achievements
 
-Here's a competition I won, organized by [Analytics India Magazine](https://analyticsindiamag.com/machinehack-winners-how-these-data-science-enthusiasts-solved-the-predicting-the-costs-of-used-cars-hackathon/) for predicting the price of used cars. The winning code is [here](https://github.com/vasim07/MachineHack/blob/master/UsedCars/FinalSubmission.ipynb).
+- 3rd Rank out of 1702 participants in a competition organized by [Analytics India Magazine](https://analyticsindiamag.com/machinehack-winners-how-these-data-science-enthusiasts-solved-the-predicting-the-costs-of-used-cars-hackathon/) for predicting the price of used cars. The winning code is [here](https://github.com/vasim07/MachineHack/blob/master/UsedCars/FinalSubmission.ipynb).
  
 <p align="center">
-  <img width="300" height="120" src="https://i.ibb.co/YyDXjrF/Capture.png">
+  <img width="400" height="120" src="https://i.ibb.co/YyDXjrF/Capture.png">
 </p>
 <p align="center">
   <img width="250" height="150" src="https://www.analyticsindiamag.com/wp-content/uploads/2019/08/machinehack_winners_banner.jpg">
 </p>
 
+- 15/1187 participats i na competition hosted by Analyticss India Magazine for preicting price of flight tickets.
+
+- 220/10516 - Overall rank on Analytics Vidhya.
 
 ## 1) Problem Statement
 
