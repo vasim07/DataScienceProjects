@@ -31,9 +31,9 @@ The content lays down a general approach that is used for solving Data Science p
   <img width="250" height="150" src="https://www.analyticsindiamag.com/wp-content/uploads/2019/08/machinehack_winners_banner.jpg">
 </p>
 
-- 15/1187 participats i na competition hosted by Analyticss India Magazine for preicting price of flight tickets.
+- 15/1187 participats in a competition hosted by Analyticss India Magazine for predicting price of flight tickets.
 
-- 220/10516 - Overall rank on Analytics Vidhya.
+- 220/10516 - Overall Analytics Vidhya Rak.
 
 ## 1) Problem Statement
 
@@ -61,30 +61,28 @@ Exploratory Data Analysis is an approach to summarize and identify important cha
 <p align="center">
   <img width="500" height="300" src="https://i.ibb.co/hgr5TNb/del.png">
 </p>
-source: Capstone project at IIM Ahmedabad.  
+Image source: Capstone project @ IIM Ahmedabad.  
 
 — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — —  — — — — — —
 
 **2.3) PreProcessing**
 
-Pre-processing refers to the transformations applied to our data before feeding it to the algorithm. Specifically, **Feature Engineering** refers to extraction of new features/columns using domain knowledge an **Feature Extraction** refers dimensionality reduction using technique such as PCA, LDA etc.   
+Pre-processing refers to the transformations applied to our data before feeding it to the algorithm. Specifically, **Feature Engineering** refers to extraction of new features/columns using domain knowledge and **Feature Extraction** refers dimensionality reduction using technique such as PCA, LDA etc.   
 
 — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — —  — — — — — —
 
-**2.4) Dividing Datasets**
+**2.4) Split Dataset**
 
-To ensure the generalizability of the model, the model's performance must be evaluated on unseen data. One method to achieve this is randomly splitting our dataset into two or three sets, either as train & test set or train, test & validation set.
+Models are build to work on new data - future data. As such, data is split into three sets train data test data & validation data. In a time series model, the order of data split is preserved.
 
-In a time series model, the order of data inflow is important, as such data is split into periods, e.g., 2017-2018 for the test, 2019 as validation, and 2020 as the test set.
-
-The other approach used for validating a model involves **cross-validation**. In this method, the train dataset is divided into multiple train and validation set. This method can be repeated several times in order to get a more robust model.
+An appropriate data split assist the modeler to avoid overfitting. **Overfitting** occurs when the trained model is not generalized on unseen data, similarly **Underfitting** occurs when model is not able to learn enough from the training data. 
 
 <p align="center">
-  <img width="200" height="100" src="https://upload.wikimedia.org/wikipedia/commons/c/c7/LOOCV.gif">
+  <img width="500" height="300" src="https://i.ibb.co/YhCQHms/datasplit.png">
 </p>
+Image source: Self's Machine Learning Project.
 
-
-<p align="center"> source: https://en.wikipedia.org</p>
+The benefit of data split can be seen in the above (learning curves) plots. Both plots indicates overfitting. Had data not been split, it would have been difficult to notice this while modeling.
 
 — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — —  — — — — — —
 
@@ -108,6 +106,13 @@ There are a few methods such as grid search, random search, and bayesian search 
 
 A practical approach to identify hyperparameter is to use the cross-validation technique. There are various cross-validation techniques such as k-fold cv, Leave one out cv, k-fold stratified cross-validation, etc., which can be selected based on the objective.
 
+<p align="center">
+  <img width="200" height="100" src="https://upload.wikimedia.org/wikipedia/commons/c/c7/LOOCV.gif">
+</p>
+
+
+<p align="center"> source: https://en.wikipedia.org</p>
+
 — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — —  — — — — — —
 
 **2.7) Version Control (ML Flow)**
@@ -121,7 +126,7 @@ source:- [Databricks](https://databricks.com/blog/2018/06/05/introducing-mlflow-
 
 — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — —  — — — — — —
 
-**2.8) Debugging ML Models**
+**2.8) Debugging or eXplainable AI**
 
 Significant variables / Feature Importance: Significant variables and feature importance plot provide us the important variables used in the model. With domain expertise, we can match these variables to ensure the stability of the model.
 
