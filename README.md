@@ -22,7 +22,7 @@ The following contents lay down the principles that we use for solving a Data Sc
 Here's a competition I won, organized by [Analytics India Magazine](https://analyticsindiamag.com/machinehack-winners-how-these-data-science-enthusiasts-solved-the-predicting-the-costs-of-used-cars-hackathon/) for predicting the price of used cars. The winning code is [here](https://github.com/vasim07/MachineHack/blob/master/UsedCars/FinalSubmission.ipynb).
  
 <p align="center">
-  <img width="250" height="150" src="https://i.ibb.co/YyDXjrF/Capture.png">
+  <img width="300" height="150" src="https://i.ibb.co/YyDXjrF/Capture.png">
 </p>
 <p align="center">
   <img width="250" height="150" src="https://www.analyticsindiamag.com/wp-content/uploads/2019/08/machinehack_winners_banner.jpg">
@@ -53,9 +53,9 @@ A well defined problem
 Exploratory Data Analysis is an approach to summarize and identify important characterstics of the data using visualization and statistical plots. It helps us identify patterns, detect bias, analyze missing values and/or detect outliers.
 
 <p align="center">
-  <img width="300" height="250" src="https://i.ibb.co/BqZP28Z/image.png">
+  <img width="300" height="250" src="https://i.ibb.co/hgr5TNb/del.png">
 </p>
-source: Capstone project at IIM Ahmedabad.
+source: Capstone project at IIM Ahmedabad.  
 
 **2.3) PreProcessing**
 
