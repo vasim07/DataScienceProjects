@@ -59,10 +59,12 @@ A well defined problem
 Exploratory Data Analysis is an approach to summarize and identify important characterstics of the data using visualization and statistical plots. It encourages to test hypothesis, detect relationship, analyze missing values and/or detect outliers.
 
 <p align="center">
-  <img width="500" height="300" src="https://i.ibb.co/hgr5TNb/del.png">
+  <img width="550" height="350" src="https://i.ibb.co/hgr5TNb/del.png">
 </p>
-Image source: Capstone project @ IIM Ahmedabad.  
 
+<center>
+Image source: Capstone project @ IIM Ahmedabad.  
+</center>
 — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — —  — — — — — —
 
 **2.3) PreProcessing**
@@ -78,25 +80,36 @@ Models are build to work on new data - future data. As such, data is split into 
 An appropriate data split assist the modeler to avoid overfitting. **Overfitting** occurs when the trained model is not generalized on unseen data, similarly **Underfitting** occurs when model is not able to learn enough from the training data. 
 
 <p align="center">
-  <img width="500" height="300" src="https://i.ibb.co/YhCQHms/datasplit.png">
+  <img width="750" height="300" src="https://i.ibb.co/YhCQHms/datasplit.png">
 </p>
-Image source: Self's Machine Learning Project.
-
+<center>
+Image source: Machine Learning Project @ IIM Ahmedabad.
+</center>
+      
+</br>    
 The benefit of data split can be seen in the above (learning curves) plots. Both plots indicates overfitting. Had data not been split, it would have been difficult to notice this while modeling.
 
 — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — —  — — — — — —
 
 **2.5) Model Training**
 
-Based on the target variable, we can either train a classification or regression model. Model training is an integral part of the entire process, and we can see that it does have various complexity involved. 
+Regression and Classification are two of the primary models in data science. Other fews are forecasting (time series), survival (both regression and classification) & panel data (time series for each panel).
 
 Commonly used models
 
- - Neural Networks (CNN, RNN, GAN, more)
+ - Linear model (Linear & Logistic Regression, Linear SVM)  
  - Decision Tree-based model (XGboost, LightGBM, Random Forest)
- - Linear model (Linear & Logistic Regression, Linear SVM)
+ - Survival (Kaplan Meier, Cox Proportioal Hazard, Random Forest Survival)
+ - Neural Networks (CNN, RNN, LSTM)
 
-Apart from the above, [here](http://topepo.github.io/caret/available-models.html) we can find more than 200 different models.
+A list of over 200 data science can be found [here](http://topepo.github.io/caret/available-models.html).
+
+<p align="center">
+  <img width="500" height="250" src="https://miro.medium.com/max/970/1*78t_O3MgIJ3yHs9dR8VELg.png">
+</p>
+
+Image source: [Model Complexity, Accuracy and Interpretability - Medium](https://towardsdatascience.com/model-complexity-accuracy-and-interpretability-59888e69ab3d)
+
 
 — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — —  — — — — — —
 
