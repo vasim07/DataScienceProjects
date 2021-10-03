@@ -4,6 +4,7 @@ img[src*='#center'] {
     display: block;
     margin: auto;
 }
+
 </style>
 
 -->
@@ -16,13 +17,12 @@ The following contents lay down the principles that we use for solving a Data Sc
 
 ***
 
-
 ## Achievement
 
 Here's a competition I won, organized by [Analytics India Magazine](https://analyticsindiamag.com/machinehack-winners-how-these-data-science-enthusiasts-solved-the-predicting-the-costs-of-used-cars-hackathon/) for predicting the price of used cars. The winning code is [here](https://github.com/vasim07/MachineHack/blob/master/UsedCars/FinalSubmission.ipynb).
  
 <p align="center">
-  <img width="300" height="150" src="https://i.ibb.co/YyDXjrF/Capture.png">
+  <img width="300" height="120" src="https://i.ibb.co/YyDXjrF/Capture.png">
 </p>
 <p align="center">
   <img width="250" height="150" src="https://www.analyticsindiamag.com/wp-content/uploads/2019/08/machinehack_winners_banner.jpg">
@@ -48,20 +48,25 @@ The problem statement is accompanied by other supporting documents such as
 
 A well defined problem 
 
+— — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — —  — — — — — —
+
 **2.2) Exploratory Data Analysis**
 
 Exploratory Data Analysis is an approach to summarize and identify important characterstics of the data using visualization and statistical plots. It helps us identify patterns, detect bias, analyze missing values and/or detect outliers.
 
 <p align="center">
-  <img width="300" height="250" src="https://i.ibb.co/hgr5TNb/del.png">
+  <img width="500" height="300" src="https://i.ibb.co/hgr5TNb/del.png">
 </p>
 source: Capstone project at IIM Ahmedabad.  
+
+— — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — —  — — — — — —
 
 **2.3) PreProcessing**
 
 With EDA insights, we get a good idea of what preprocessing needs to be performed on the data. General steps involved are imputing missing data, handle outliers, converting categorical variables.
 
 There are two methods to implement preprocessing steps in the predictive model, either through a pipeline or an intermediate database with preprocessing steps.
+
 
 **Feature Engineering and Feature Extraction**
 
@@ -86,6 +91,8 @@ Standardization & Normalization: Some algorithms such as gradient descent and su
 $Standardizaion = Z=\dfrac{x-\mu} {\sigma}$    
 
 $Normalization = \dfrac{X-Xmin}{Xmax - Xmin}$
+
+— — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — —  — — — — — —
 
 **2.4) Dividing Datasets**
 
