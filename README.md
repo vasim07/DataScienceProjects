@@ -8,69 +8,51 @@ img[src*='#center'] {
 
 -->
 
-## Machine Learning Projects
+## Data Science Projects
 
-The respository contains machine learning competitions/hackathons that I have participated in during my extra time. While such competition's objective is to minimize error or maximize accuracy, these competitions allow us with the flexibility to work on various real-world problems and form multi-dimension thinking in solving data science problems. 
+The respository contains codes of data sciece course work and competitions/hackathons.
 
- Here's one competition I won, organized by [Analytics India Magazine](https://analyticsindiamag.com/machinehack-winners-how-these-data-science-enthusiasts-solved-the-predicting-the-costs-of-used-cars-hackathon/) for predicting the price of used cars. The winning code is [here](https://github.com/vasim07/MachineHack/blob/master/UsedCars/FinalSubmission.ipynb).
+The following contents lay down the principles that we use for solving a Data Science problem.
+
+***
+
+
+## Achievement
+
+Here's a competition I won, organized by [Analytics India Magazine](https://analyticsindiamag.com/machinehack-winners-how-these-data-science-enthusiasts-solved-the-predicting-the-costs-of-used-cars-hackathon/) for predicting the price of used cars. The winning code is [here](https://github.com/vasim07/MachineHack/blob/master/UsedCars/FinalSubmission.ipynb).
  
 <p align="center">
-  <img width="460" height="150" src="https://i.ibb.co/YyDXjrF/Capture.png">
+  <img width="250" height="150" src="https://i.ibb.co/YyDXjrF/Capture.png">
 </p>
 <p align="center">
-  <img width="460" height="300" src="https://www.analyticsindiamag.com/wp-content/uploads/2019/08/machinehack_winners_banner.jpg">
+  <img width="250" height="150" src="https://www.analyticsindiamag.com/wp-content/uploads/2019/08/machinehack_winners_banner.jpg">
 </p>
 
-The following contents lay down the principles that I use for solving a Data Science problem. These principles are inspired by the popular [CRISP-DM](https://en.wikipedia.org/wiki/Cross-industry_standard_process_for_data_mining) framework.
+***
+
+## 1) Problem Statement
 
 
-
-## Problem Statement
-
-The first step in solving any problems requires a clear definition of the problem statement and [SMART](https://en.wikipedia.org/wiki/SMART_criteria) objectives. 
+brief about ps 
 
 E.g., The loan default ratio of our bank is high and needs to be reduced by x% within the next six months; to achieve the objective, we need to classify our loan applications into high risk, moderate risk, or low-risk profile.
 
-**Process Mapping**
-A process map is a planning and management tool that visually describes the flow of work. Such a visual approach provides a bird's eye view of the business and allows us to see the larger picture of the business flow.
+![image of opportunity tree]
 
-<p align="center">
-  <img width="560" height="300" src="https://i.ibb.co/zsqrJN8/test.gif">
-</p>
+The problem statement is accompanied by other supporting documents such as 
+***
 
-<p align="center"> source: Self (Recruitment process)</p>
+##2) Data Science Methodology
 
-A good process map allows us to explain clearly and evaluate the proposed changes and understand the benefits, challenges, and requirements of the proposed structure.
+**2.1) Data Collection**
 
-**Performance Measure**
-A Performance measure is a numerical value that we want to optimize for the particular model. We should consider appropriate cost activities. 
+A well defined problem 
 
-E.g., What is the cost involved if we reject a low-risk application? Simultaneously what is the cost of a high-risk customer is classified as a low-risk profile.
-
-Apart from the performance measure, we should also define a product success measure.
-
-**Assumptions**
-It never hurts to list down your assumptions beforehand while approaching a problem.  If we have a clear understanding of our assumptions, it becomes flexible to switch gears while solving the problem.
-
-
-## Approach
-
-**Data Collection**
-
-For the competition, we are generally provided with neat and clean data; however, this is not always the case while working on real-world problems. We may need to extract data from multiple sources such as SQL or NO SQL Databases - on-premise, on the cloud, Hadoop, API, or even need to scrape a website.
-
-Based on my experience, for a transactional process, the [Kimball dimensional modeling](https://www.kimballgroup.com/data-warehouse-business-intelligence-resources/kimball-techniques/dimensional-modeling-techniques/) approach provides the maximum benefit when it comes to slicing and dicing the data. 
-
-<p align="center">
-  <img width="560" height="300" src="https://media.geeksforgeeks.org/wp-content/uploads/20200717001130/Kimball.png">
-</p>
-<p align="center"> source: www.geeksforgeeks.org</p>
-
-**Exploratory Data Analysis**
+**2.2) Exploratory Data Analysis**
 
 An EDA is an essential and integral part of a data science process. It helps us to detect bias, incorrect, incomplete, or outlier records. Additionally, it allows us to test our data distribution assumptions, relationship, and patterns. 
 
-**PreProcessing**
+**2.3) PreProcessing**
 
 With EDA insights, we get a good idea of what preprocessing needs to be performed on the data. General steps involved are imputing missing data, handle outliers, converting categorical variables.
 
@@ -100,7 +82,7 @@ $Standardizaion = Z=\dfrac{x-\mu} {\sigma}$
 
 $Normalization = \dfrac{X-Xmin}{Xmax - Xmin}$
 
-**Train, Test, and Dev Dataset**
+**2.4) Dividing Datasets**
 
 To ensure the generalizability of the model, the model's performance must be evaluated on unseen data. One method to achieve this is randomly splitting our dataset into two or three sets, either as train & test set or train, test & validation set.
 
@@ -109,13 +91,13 @@ In a time series model, the order of data inflow is important, as such data is s
 The other approach used for validating a model involves **cross-validation**. In this method, the train dataset is divided into multiple train and validation set. This method can be repeated several times in order to get a more robust model.
 
 <p align="center">
-  <img width="400" height="100" src="https://upload.wikimedia.org/wikipedia/commons/c/c7/LOOCV.gif">
+  <img width="200" height="100" src="https://upload.wikimedia.org/wikipedia/commons/c/c7/LOOCV.gif">
 </p>
 
 
 <p align="center"> source: https://en.wikipedia.org</p>
 
-## Model Training
+##2.5) Model Training
 
 Based on the target variable, we can either train a classification or regression model. Model training is an integral part of the entire process, and we can see that it does have various complexity involved. 
 
@@ -127,13 +109,13 @@ Commonly used models
 
 Apart from the above, [here](http://topepo.github.io/caret/available-models.html) we can find more than 200 different models.
 
-**Hyperparameter tuning**
+**2.6) Hyperparameter tuning**
 
 There are a few methods such as grid search, random search, and bayesian search to identify the optimal hyperparameters of a model.
 
 A practical approach to identify hyperparameter is to use the cross-validation technique. There are various cross-validation techniques such as k-fold cv, Leave one out cv, k-fold stratified cross-validation, etc., which can be selected based on the objective.
 
-**Version Control (ML Flow)**
+**2.7) Version Control (ML Flow)**
 
 A predictive model design is an iterative process, which involves trying different features, various models and tuning the best hyperparameters. Because of an iterative approach, we need an appropriate version control mechanism to capture version history. 
 
@@ -142,7 +124,7 @@ I prefer using the [ML Flow](https://mlflow.org/) platform from databricks to ef
 ![Image result for mlflow](https://databricks.com/wp-content/uploads/2018/06/mlflow-web-ui.png)
 source:- [Databricks](https://databricks.com/blog/2018/06/05/introducing-mlflow-an-open-source-machine-learning-platform.html)
 
-**Debugging ML Models**
+**2.8) Debugging ML Models**
 
 Significant variables / Feature Importance: Significant variables and feature importance plot provide us the important variables used in the model. With domain expertise, we can match these variables to ensure the stability of the model.
 
@@ -160,18 +142,13 @@ SHapley Additive exPlanation (SHAP): The goal of SHAP is to explain the predicti
 
 Learning Curves: We can use Learning curves to understand and evaluate the bias variance trade off of the model.
 
-**Model Evaluation**
+**2.9) Model Evaluation**
 
 Only once we have finalized a model. We evaluate its performance on the test dataset. Our objective is to find out the best model that can be generalized on unseen data. High performance on the test dataset can help us conclude that the model has found the best parameters used for our data.
 
 Even though the modeling building process ends here, however, this does not meet our end objective.
 
-## Deployment, Testing & Monitor
-
-**Docker**
-In some organizations, the job of a data scientist ends once we have a finalized the model. However, many organizations expect data scientists to provide a production-ready model to the development team.
-
-We can use docker images to build the model pipeline. A docker image is a document with a set of instructions for creating the container. The steps include all relevant information such as the operating system, packages, files, and folders, etc., required to build the same environment for our model.
+##3) Deployment & Monitorig
 
 **Batch Prediction**
 Next, we go into more details about the prediction of models once deployed.
@@ -202,6 +179,12 @@ A few points to consider while using API.
  - CICD: Model deployment is more like software engineering; thus, a DevOps approach such as continuous improvement and continuous deployment ensures that the latest updates are tested and applied as soon as possible.
  
  - Cloud Infrastructure: We can use cloud platforms such as GCP, Azure, or AWS to build the required infrastructure. Features such as compute engine, lambda functions, virtual machines, etc., are easily set up for prototyping and converting to production. Lastly, automatic scaling through a load balancer is extremely helpful to scale up or scale down our API request as per the demand.
+
+**Docker**
+In some organizations, the job of a data scientist ends once we have a finalized the model. However, many organizations expect data scientists to provide a production-ready model to the development team.
+
+We can use docker images to build the model pipeline. A docker image is a document with a set of instructions for creating the container. The steps include all relevant information such as the operating system, packages, files, and folders, etc., required to build the same environment for our model.
+
 
 With all these steps involved, we can notice that building a robust real-time model is a humongous task and requires special skills and a team to keep it up are running.
 
