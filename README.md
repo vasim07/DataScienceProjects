@@ -5,15 +5,19 @@ img[src*='#center'] {
     margin: auto;
 }
 
+.markdown-body h2 {
+    border-bottom: 3px solid var(--color-border-muted);
+}
+
 </style>
 
 -->
 
 ## Data Science Projects
 
-The respository contains codes of data science course work and competitions.
+The respository contains jupyter notebook codes of data science/machine learning course work and competitions.
 
-The following contents lay down the principles that we use for solving a Data Science problem.
+The content lays down a general approach that is used for solving Data Science problem.
 
 
 ## Achievement
@@ -37,7 +41,7 @@ E.g., The loan default ratio of our bank is high and needs to be reduced by x% w
 
 ![image of opportunity tree]
 
-The problem statement is accompanied by other supporting documents such as 
+The problem statement is accompanied by supporting documents such as 
 
 ## 2) Data Science Methodology
 
@@ -49,7 +53,7 @@ A well defined problem
 
 **2.2) Exploratory Data Analysis**
 
-Exploratory Data Analysis is an approach to summarize and identify important characterstics of the data using visualization and statistical plots. It helps us identify patterns, detect bias, analyze missing values and/or detect outliers.
+Exploratory Data Analysis is an approach to summarize and identify important characterstics of the data using visualization and statistical plots. It encourages to test hypothesis, detect relationship, analyze missing values and/or detect outliers.
 
 <p align="center">
   <img width="500" height="300" src="https://i.ibb.co/hgr5TNb/del.png">
@@ -60,34 +64,7 @@ source: Capstone project at IIM Ahmedabad.
 
 **2.3) PreProcessing**
 
-With EDA insights, we get a good idea of what preprocessing needs to be performed on the data. General steps involved are imputing missing data, handle outliers, converting categorical variables.
-
-There are two methods to implement preprocessing steps in the predictive model, either through a pipeline or an intermediate database with preprocessing steps.
-
-
-**Feature Engineering and Feature Extraction**
-
-All models have a basic assumption, i.e., all the selected features can explain/predict the target variable. Hence, we should aim to choose accurate features during data modeling.
-
-Domain-specific selection:-  Humans are superior in identifying patterns; thus, it is vital to get domain-specific knowledge while selecting features that influence the predicted variable.
-
-Feature Importance Based Selection: Many models such as linear-based or tree-based models provide model-based feature significance and importance. We can use these features to hypothesize our assumptions and design a feature selection process.
-
-Principal Component Analysis (PCA): We can use the PCA technique to extract linear combinations of numerical variables.
-
-
-<p align="center">
-  <img width="600" height="250" src="https://i.ibb.co/wwr2hqh/Capture.png">
-</p>
-
-<p align="center"> source: setosa.io</p>
-
-
-Standardization & Normalization: Some algorithms such as gradient descent and support vector machines boost their speed with standardization and normalization.
-
-$Standardizaion = Z=\dfrac{x-\mu} {\sigma}$    
-
-$Normalization = \dfrac{X-Xmin}{Xmax - Xmin}$
+Pre-processing refers to the transformations applied to our data before feeding it to the algorithm. Specifically, **Feature Engineering** refers to extraction of new features/columns using domain knowledge an **Feature Extraction** refers dimensionality reduction using technique such as PCA, LDA etc.   
 
 — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — —  — — — — — —
 
