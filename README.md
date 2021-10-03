@@ -15,7 +15,6 @@ The respository contains codes of data science course work and competitions.
 
 The following contents lay down the principles that we use for solving a Data Science problem.
 
-***
 
 ## Achievement
 
@@ -28,7 +27,6 @@ Here's a competition I won, organized by [Analytics India Magazine](https://anal
   <img width="250" height="150" src="https://www.analyticsindiamag.com/wp-content/uploads/2019/08/machinehack_winners_banner.jpg">
 </p>
 
-***
 
 ## 1) Problem Statement
 
@@ -40,7 +38,6 @@ E.g., The loan default ratio of our bank is high and needs to be reduced by x% w
 ![image of opportunity tree]
 
 The problem statement is accompanied by other supporting documents such as 
-***
 
 ## 2) Data Science Methodology
 
@@ -109,6 +106,8 @@ The other approach used for validating a model involves **cross-validation**. In
 
 <p align="center"> source: https://en.wikipedia.org</p>
 
+— — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — —  — — — — — —
+
 **2.5) Model Training**
 
 Based on the target variable, we can either train a classification or regression model. Model training is an integral part of the entire process, and we can see that it does have various complexity involved. 
@@ -121,11 +120,15 @@ Commonly used models
 
 Apart from the above, [here](http://topepo.github.io/caret/available-models.html) we can find more than 200 different models.
 
+— — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — —  — — — — — —
+
 **2.6) Hyperparameter tuning**
 
 There are a few methods such as grid search, random search, and bayesian search to identify the optimal hyperparameters of a model.
 
 A practical approach to identify hyperparameter is to use the cross-validation technique. There are various cross-validation techniques such as k-fold cv, Leave one out cv, k-fold stratified cross-validation, etc., which can be selected based on the objective.
+
+— — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — —  — — — — — —
 
 **2.7) Version Control (ML Flow)**
 
@@ -135,6 +138,8 @@ I prefer using the [ML Flow](https://mlflow.org/) platform from databricks to ef
 
 ![Image result for mlflow](https://databricks.com/wp-content/uploads/2018/06/mlflow-web-ui.png)
 source:- [Databricks](https://databricks.com/blog/2018/06/05/introducing-mlflow-an-open-source-machine-learning-platform.html)
+
+— — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — —  — — — — — —
 
 **2.8) Debugging ML Models**
 
@@ -153,6 +158,8 @@ SHapley Additive exPlanation (SHAP): The goal of SHAP is to explain the predicti
 <p align="center"> source: Python SHAP package</p>
 
 Learning Curves: We can use Learning curves to understand and evaluate the bias variance trade off of the model.
+
+— — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — —  — — — — — —
 
 **2.9) Model Evaluation**
 
