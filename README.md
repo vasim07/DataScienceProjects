@@ -35,22 +35,28 @@ The content lays down a general approach that is used for solving Data Science p
 
 - 220/10516 - Overall Analytics Vidhya Rak.
 
-## 1) Problem Statement
+## 1) Problem Defiation
 
 
-brief about ps 
+To make a remarkable contribution, we need to start by asking the right question. The problem statement identifies the current state, the desired future state and any gaps between the two. 
 
-E.g., The loan default ratio of our bank is high and needs to be reduced by x% within the next six months; to achieve the objective, we need to classify our loan applications into high risk, moderate risk, or low-risk profile.
+<p align="center">
+  <img width="500" height="250" src="https://i.ibb.co/SrxPWP2/ps.pngg">
+</p>
+<center>
+Image source: Research planning - Business Aalytics in Real World @ IIM Ahmedabad.  
+</center>
 
-![image of opportunity tree]
+</br>
+</br>
 
-The problem statement is accompanied by supporting documents such as 
+A problem statement is an important communication tool that can help ensure everyone working on a project knows what the problem they need to address is and why the project is important. 
 
 ## 2) Data Science Methodology
 
 **2.1) Data Collection**
 
-A well defined problem 
+In the research planning image, towards the end we have Sources of info, a well designed problem statement delivers the 
 
 — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — —  — — — — — —
 
@@ -171,7 +177,7 @@ Even though the modeling building process ends here, however, this does not meet
 
 ## 3) Deployment & Monitorig
 
-**Batch Prediction**
+**Batch Prediction**  
 Next, we go into more details about the prediction of models once deployed.
 
 In a situation where we do not need real-time prediction, e.g., predicting employee attrition, we can process our data in batches. 
@@ -180,7 +186,7 @@ We set up scheduled jobs to generate predictions in specific intervals such as h
 
 Google Big Query, Amazon's Redshift, and Azure Synapse are all data warehouses that can be used to store and process batch predictions. For on premise, we can use any column-oriented relationship database management system such as SQL Server or Oracle SQL.
 
-**Rest API**
+**Rest API**  
 In cases where we need real-time prediction, e.g., an Application Programming Interface (API) can be set up. In Python, we can use flask, Django, or fast API to generate API.
 
 A few points to consider while using API.
