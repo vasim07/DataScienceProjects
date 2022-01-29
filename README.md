@@ -13,6 +13,17 @@ img[src*='#center'] {
 
 -->
 
+# Development Projects
+
+<strong>
+
+Note: The Python/R codes in these repository are for development purpose they should not be used in production stage.
+
+Production stage machine learning models are built using pipelines and classes. They need to be robust, maintainable and scalable.
+
+</strong>
+    
+***
 ## Data Science Projects
 
 The respository contains jupyter notebook codes of data science/machine learning course work and competitions.
